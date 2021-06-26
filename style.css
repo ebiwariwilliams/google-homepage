@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.1rem;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1rem;
+}
+div ul {
+  display: flex;
+}
+div li {
+  margin: 0 0.5rem;
+}
+nav .button {
+  padding: 0.4rem 0.8rem;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.content .advert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.advert div {
+  padding: 0.7rem 0;
+}
+.input {
+  min-width: 30rem;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+
+div .icons {
+  position: absolute;
+}
+div .l-icons {
+  padding: 1rem;
+  text-align: left;
+}
+div .r-icons {
+  margin: 15px -30px;
+}
+
+button {
+  border: none;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #000;
+}
+button:hover {
+  border: 1px solid grey;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+footer .main {
+  padding: 1rem;
+}
+
+footer .footer-ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0.7rem;
+  padding: 0.7rem 0;
+}
+
+footer .footer-content {
+  display: flex;
+}
