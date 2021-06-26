@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #222;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -49,16 +49,16 @@ nav .button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid red;
 }
 
 .advert div {
-  padding: 0.7rem 0;
+  padding: 0.6rem 0;
 }
 .input {
-  min-width: 30rem;
+  min-width: 35rem;
   padding: 1rem 2rem;
   border-radius: 20px;
+  border: 1px solid #222;
 }
 
 div .icons {
@@ -69,18 +69,21 @@ div .l-icons {
   text-align: left;
 }
 div .r-icons {
-  margin: 15px -30px;
+  color: red;
+  padding-right: 0.5rem;
+  margin: 15px -40px;
 }
 
 button {
   border: none;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
   background-color: #fff;
   color: #000;
 }
 button:hover {
   border: 1px solid grey;
+  border-radius: 5px;
 }
 
 footer {
@@ -100,4 +103,5 @@ footer .footer-ul {
 
 footer .footer-content {
   display: flex;
+  justify-content: space-between;
 }
